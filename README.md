@@ -18,7 +18,7 @@ If you are on a mac, you might need to install a USB driver from https://www.sil
 * Connect your ESP8266 using a suitable USB cable
 * Select Tools > Board > NodeMCU 1.0 (…)
 * Select Tools > Port > YourESP8266Port (`/dev/tty.SLAB_USBtoUART on my Mac)
-* Type in or copy the program at the bottom of this page
+* Type in or copy the program in the [ardu.ino](ardu.ino) file.
 * Press Upload
 * Connect a device to the WLAN with the SSID `ESP826`
 * Open a browser and enter http://192.168.4.1/. The LED state should change every time you press reload
