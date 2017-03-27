@@ -1,7 +1,7 @@
 # esp8266
 
 ## Mac 
-If you are on a mac, you might need to install a USB driver from https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx 
+If you are on a mac, you might need to install a USB driver from https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx ([direct link](https://www.silabs.com/Support%20Documents/Software/Mac_OSX_VCP_Driver.zip))
 
 ## Setup
 * Install and launch the Arduino software from https://www.arduino.cc/en/Main/Software
