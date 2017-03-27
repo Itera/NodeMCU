@@ -21,5 +21,5 @@ If you are on a mac, you might need to install a USB driver from https://www.sil
 * Type in or copy the program in the [ardu.ino](ardu.ino) file.
 * Press Upload
 * Connect a device to the WLAN with the SSID `ESP826`
-* Open a browser and enter http://192.168.4.1/. The LED state should change every time you press reload
+* Open a browser and enter [http://192.168.4.1/](http://192.168.4.1/). The LED state should change every time you press reload
 * Have fun!
