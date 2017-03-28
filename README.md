@@ -21,13 +21,18 @@ If you are on a mac, you might need to install a USB driver from https://www.sil
   * Long leg on LED the connects to D4
   * Short leg on the LED connects to a free slot on the end
   * Resistor connects the short LED leg to GND
-  * D4 > LED (long leg) > FREE > Resistor > GND
+  * D4 > LED (long leg) > UNUSED/FREE hole in the breadboard > Resistor > GND
+  * **Make sure that one leg of the resistor and the LED sits on the same column and is not connected to pins on the Node MCU**
   * **Make sure everything is correct!**
+  * *If the LED does not glow when you run the **complete** example you can test it by using the `3V3` pin instead of D4. Try turning it around*
 * Connect your ESP8266 using a suitable USB cable
 * Select Tools > Board > NodeMCU 1.0 (…)
-* Select Tools > Port > YourESP8266Port (`/dev/tty.SLAB_USBtoUART on my Mac)
+* Select Tools > Port > `<Your ESP8266 Port>` (`/dev/tty.SLAB_USBtoUART` on a Mac)
 * Type in or copy the program in the [ardu.ino](ardu.ino) file.
 * Press Upload
 * Connect a device to the WLAN with the SSID `ESP826`
 * Open a browser and enter [http://192.168.4.1/](http://192.168.4.1/). The LED state should change every time you press reload
 * Have fun!
+
+![Node MCU Pinout](nodemcu_pins.png)
+![Hookup your Node MCU like this](schematic.png)
