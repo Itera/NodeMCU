@@ -8,6 +8,13 @@ In addition it supports serial communication via UART, SPI, and I2C.
 
 You can use this to talk to other devices, or the Internet/the cloud. You can make "Useless-boxes", robots, plant irrigation systems, beer counter, netflix alert, refrigator monitoring systems, or whatever you put your mind to. 
 
+### Prerequisites / in the "kit"
+
+* 1x Node MCU prototyping board with ESP8266 microcontroller
+* 1x Breadboard (prototyping board)
+* 1x LED
+* 1x 840 Ohm resistor
+
 ## Mac 
 If you are on a mac, you might need to install a USB driver from https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx ([direct link](https://www.silabs.com/Support%20Documents/Software/Mac_OSX_VCP_Driver.zip))
 
