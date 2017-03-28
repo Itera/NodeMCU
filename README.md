@@ -1,4 +1,12 @@
-# esp8266
+# Getting started with a Node MCU
+
+A Node MCU is a small prototyping board based around the ESP8266 microcontroller. 
+It has built-in WiFi and several digital general purpose input/output (GPIO) pins, as well as one analog input.
+In addition it supports serial communication via UART, SPI, and I2C. 
+
+### Examples 
+
+You can use this to talk to other devices, or the Internet/the cloud. You can make "Useless-boxes", robots, plant irrigation systems, beer counter, netflix alert, refrigator monitoring systems, or whatever you put your mind to. 
 
 ## Mac 
 If you are on a mac, you might need to install a USB driver from https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx ([direct link](https://www.silabs.com/Support%20Documents/Software/Mac_OSX_VCP_Driver.zip))
